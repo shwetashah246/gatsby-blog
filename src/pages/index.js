@@ -1,4 +1,12 @@
-import React from "react"
-export default function Home() {
-  return <h1>Hello Gatsby!</h1>
+import * as React from 'react'
+import Layout from '../components/layout'
+
+const IndexPage = () => {
+  return (
+    <Layout pageTitle="Home Page">
+      <p>I'm making this by following the Gatsby Tutorial.</p>
+    </Layout>
+  )
 }
+
+export default IndexPage
