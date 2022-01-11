@@ -7,7 +7,8 @@
     "build": "gatsby build",
     "dev": "gatsby develop",
     "dev-m": "gatsby develop -H 0.0.0.0 -p 8000",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "gatsby clean && gatsby develop -H 0.0.0.0 -p 8000"
   },
   "repository": {
     "type": "git",
