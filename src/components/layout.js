@@ -10,7 +10,6 @@ import {
 } from './layout.module.css'
 
 const Layout = ({ pageTitle, children }) => {
-
   const data = useStaticQuery(graphql`
     query {
       site {
